@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ulinicio{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    background-image: linear-gradient(to right top, #324183, #384b8a, #3f5491, #475e98, #4f689f, #556da3, #5a71a6, #6076aa, #6577ab, #6a77ac, #6e78ad, #7378ae);
+    font-size: 0;
+    text-align: center;
+    padding: 10px;
+}
+.liinicio{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 30px;
+}
+.liinicio a {
+    text-decoration: none;
+    color: rgb(68, 68, 66);
+}
+.liinicio a:hover{
+    color:rgb(107, 133, 139)
+}
+.h1inicio{
+    color: rgb(131, 29, 29);
+    text-align: center;
+    font-size: 3em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
+.estilopag1{
+    background: url(../assets/img/img1.svg);
+    background-repeat: repeat;
+    background-image: cover;
+    background-size: 100% ;
+}
+.estilopag2{
+    background: url(../assets/img/img2.svg);
+    background-repeat: repeat;
+    background-image: cover;
+    background-size: 100% ;
+    position: absolute;
+}
+.estilopag3{
+    background: url(../assets/img/img3.svg);
+    background-repeat: repeat;
+    background-image: cover;
+    background-size: 100% ;
+}
+.estilopag4{
+    background: url(../assets/img/img4.svg);
+    background-repeat: repeat;
+    background-image: cover;
+    background-size: 100% ;
+}
+.bodyall{
+    background: url(../assets/img/img2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.h1all{
+    top: 3%;
+    color: rgb(134, 121, 64);
+    text-align: center;
+    font-size: 3em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
+.h2planes{
+    color: aliceblue;
+    margin: 8%;
+    text-align: center;
+    font-size: medium;
+}
+
+.contenedor{
+    color: aliceblue;
+    margin: 3%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-gap: 100px;
+}
+.item:hover{
+    transform: scale(1.10);
+    transition: all 0.7s;
+}
+.item{
+    color: brown;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid rgb(156, 154, 54);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 12px 13px 15px -4px rgba(0,0,0,0.67);
+-webkit-box-shadow: 12px 13px 15px -4px rgba(0,0,0,0.67);
+-moz-box-shadow: 12px 13px 15px -4px rgba(0,0,0,0.67);
+}
+.item1{
+    background-image: url(../assets/img/weight.png);
+    background-position: center;
+    background-size: cover;
+}
+.item2{
+    background-image: url(../assets/img/run.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item3{
+    background-image: url(../assets/img/yoga.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item4{
+    background-image: url(../assets/img/swim.png);
+    background-position: center;
+    background-size: cover;
+}
+.item5{
+    background-image: url(../assets/img/box.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item6{
+    background-image: url(../assets/img/gym.png);
+    background-position: center;
+    background-size: cover;
+}
+.contenedor2{
+    color: aliceblue;
+    margin: 3%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-gap: 100px;
+}
+.item7{
+    background-image: url(../assets/img/silueta.png);
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+}
+.item8{
+    background-image: url(../assets/img/silueta.png);
+    background-position: center;
+    background-size: cover;
+}
+.item9{
+    background-image: url(../assets/img/silueta.png);
+    background-position: center;
+    background-size: cover;
+}
+.item10{
+    background-image: url(../assets/img/silueta.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.label{
+    display: block;
+    color: rgb(170, 170, 106);
+    margin: 10px;
+}
+.contacto1{
+    margin: 20px ;
+    padding: 30px;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(135, 146, 37);
+}
+
+.inputs{
+    display: grid;
+}
+
+.footer{
+    min-height: 50px;
+    color: aliceblue;
+    width: 150px;
+    background-color: rgba(250, 235, 215, 0.178);
+    border-radius: 15px;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    bottom: 10px;
+    margin: 15;
+    right: 10px;
+    position: fixed;
+}
+.footer i{
+    font-size: 15px;
+    color: beige;
+    letter-spacing: 20px;
+}
+
+main {
+    background-image: url(../assets/img/box.jpg);
+}
+@media only screen and (min-width: 320px) and (max-width:599px){
+    .liinicio{
+        font-size: 15px;
+    }
+    .h1inicio{
+        font-size: 20px;
+        top: 20%;
+    }
+    .estilopag1{
+        background-image: url(../assets/img/cel1.PNG);
+    }
+    .estilopag2{
+        background-image: url(../assets/img/cel1.PNG);
+    }
+    .estilopag3{
+        background-image: url(../assets/img/cel2.PNG);
+    }
+    .estilopag4{
+        background-image: url(../assets/img/cel1.PNG);
+    }
+    .h1all{
+        text-align: center;
+        top: 15px;
+    }
+    .h2planes{
+        text-align: center;
+        color: black;
+        top: 10%;
+        padding: 10%;
+        background-color: rgba(160, 128, 59, 0.336);
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+    }
+    .contenedor2{
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+
+    }
+    h3{
+        color: black;
+    }
+    .footer{
+        color: black;
+    }
+    .footer i{
+        color: black;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width:999px){
+    .liinicio{
+    font-size: 15px;
+    top: 10%;
+}
+    .h1inicio{
+    font-size: 20px;
+    top: 20%;
+}
+    .h2planes{
+        top: 15%;
+        padding: 10%;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+}   
+}
